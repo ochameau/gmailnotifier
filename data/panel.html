@@ -1,0 +1,24 @@
+<html><head></head>
+<body>
+<style>
+body {
+  text-align: center;
+}
+h1 {
+  font-size: 1.5em;
+}
+</style>
+<script>
+function init(defaultColor, warnColor) {
+  document.getElementById("default").value = defaultColor;
+  document.getElementById("warn").value = warnColor;
+}
+</script>
+<form id="form">
+<h1>Gmail notifier</h1>
+<label for="default">Default color: <input type="text" id="default" value="" size="7" /><br/>
+<label for="warn">Warning color: <input type="text" id="warn" value="" size="7" /><br/>
+<input type="submit" value="update" />
+</form>
+</body>
+</html>

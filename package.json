@@ -1,0 +1,12 @@
+{
+    "name": "gmailnotifier", 
+    "license": "MPL", 
+    "author": "Alexandre Poirot", 
+    "version": "0.1", 
+    "dependencies": [
+        "jetalienfx"
+    ], 
+    "fullName": "gmailnotifier", 
+    "id": "jid0-OLqKBzB4NFzFrnfpXEnkriAyxqA", 
+    "description": "An example of addon-sdk extension that use jetalienfx to notify new gmail chat/mails with alienware laptop lights! "
+}
